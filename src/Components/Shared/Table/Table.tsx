@@ -19,7 +19,7 @@ function Table(props: TableProps): JSX.Element {
                 </thead>
                 <tbody>
                     {props.table.map(t => 
-                    <tr key={t.name}>
+                                        <tr key={t.name}>
                         <td>{t.name}</td>
                         <td>{t.id}</td>
                         <td>{t.status}</td>
